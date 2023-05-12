@@ -5,7 +5,7 @@ body{
 a{
     text-emphasis: none;
     text-decoration: none;
-    color: rgb(165, 167, 167);
+    color: rgb(201, 201, 201);
 }
 .logo{
     display: flex;
@@ -18,18 +18,31 @@ a{
     height: auto;
 }
 
-.lista {
-    list-style-type: none;
-    padding: 0;
-    border: 1px solid #f8f8f8;
-    border-bottom: 0px;
-    border-radius: 16px;
-    font-family: "Oswald", Georgia, sans-serif;
+.recetas-container{
+    margin: auto;
+    max-width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 10px 10px 10px 10px;
 }
 
-.lista li {
-    padding: 8px 16px;
-    border-bottom: 1px solid #ddd;
-    border-radius: 16px;
+.receta-box{
+    max-width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: rgb(255, 175, 56);
+    border: 5px solid rgb(241, 144, 87);
+    border-radius: 3px;
+    margin: 5px;
 }
 
+.receta-box img{
+    width: 30vw;
+    height: auto;
+}
