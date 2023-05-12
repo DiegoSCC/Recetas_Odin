@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(36, 34, 34);
+}
+
+a{
+    text-emphasis: none;
+    text-decoration: none;
+    color: rgb(165, 167, 167);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    width: 30vh;
+    height: auto;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #f8f8f8;
+    border-bottom: 0px;
+    border-radius: 16px;
+    font-family: "Oswald", Georgia, sans-serif;
+}
+
+.lista li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 16px;
+}
+
